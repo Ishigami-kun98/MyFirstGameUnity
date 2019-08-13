@@ -923,6 +923,7 @@ GameObject:
   - component: {fileID: 1589416876}
   - component: {fileID: 1589416875}
   - component: {fileID: 1589416877}
+  - component: {fileID: 1589416878}
   m_Layer: 5
   m_Name: Credits Panel
   m_TagString: Untagged
@@ -1002,3 +1003,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a40e5157ea8e7214dacc35a643d38e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1589416878
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589416873}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eff62e3c173b3214ebd3743f693bd434, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

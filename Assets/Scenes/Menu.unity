@@ -248,8 +248,8 @@ MonoBehaviour:
     m_FontSize: 35
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 69
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -844,6 +844,7 @@ GameObject:
   - component: {fileID: 1589416876}
   - component: {fileID: 1589416875}
   - component: {fileID: 1589416877}
+  - component: {fileID: 1589416878}
   m_Layer: 5
   m_Name: MenuPanel
   m_TagString: Untagged
@@ -922,3 +923,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09e692108c685e9469f3bf271499d7b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1589416878
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589416873}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2afc82f80069ccb4ba05f5f3b35daea7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
